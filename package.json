@@ -9,14 +9,10 @@
     "deploy": "chmod +x ./ci/script/deploy.sh && ./ci/script/deploy.sh"
   },
   "dependencies": {
-    "request": "^2.88.2",
-    "request-promise": "^4.2.6",
     "vue": "^3.2.37"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^3.0.2",
-    "archiver": "^5.3.1",
-    "node-ssh": "^13.0.0",
     "vite": "^3.0.6"
   }
 }
