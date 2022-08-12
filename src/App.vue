@@ -5,9 +5,6 @@ import HelloWorld from './components/HelloWorld.vue'
 </script>
 
 <template>
-  <div>publish prod success</div>
-  <div>add feihsu notify</div>
-  <div style="color: red; font-size: 20px">success</div>
   <div>
     <a href="https://vitejs.dev" target="_blank">
       <img src="/vite.svg" class="logo" alt="Vite logo" />
