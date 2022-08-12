@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "build-dev": "chmod +x ./deploy/deploy-dev.sh && ./deploy/deploy-dev.sh "
+    "build-prod": "chmod +x ./ci/script/deploy-prod.sh && ./ci/script/deploy-prod.sh"
   },
   "dependencies": {
     "request": "^2.88.2",
@@ -16,6 +16,8 @@
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^3.0.2",
+    "archiver": "^5.3.1",
+    "node-ssh": "^13.0.0",
     "vite": "^3.0.6"
   }
 }
