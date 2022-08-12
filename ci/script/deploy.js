@@ -36,9 +36,8 @@ function uploadFile() {
     .then(() => {
       console.log('SSH login success')
       // 上传网站的发布包至configs中配置的远程服务器的指定地址
-      ssh.putFile(`/tmp/dist.zip`, `${config.pathUrl}/dist.zip`).then(() => {
+      ssh.putFile(path.join(__dirname,'../../dist.zip'), `${config.pathUrl}/dist.zip`).then(() => {
         console.log('The zip file is upload successful')
-        console.log(1)
         execCommand()
       })
     })
