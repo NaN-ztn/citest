@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "build-dev": "npm run dev & chmod +x ./deploy/deploy-dev.sh && ./deploy/deploy-dev.sh "
+    "build-dev": "chmod +x ./deploy/deploy-dev.sh && ./deploy/deploy-dev.sh "
   },
   "dependencies": {
     "vue": "^3.2.37"
