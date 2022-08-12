@@ -5,7 +5,7 @@ import HelloWorld from './components/HelloWorld.vue'
 </script>
 
 <template>
-  <div>citest</div>
+  <div style="color: red">citest</div>
   <div>citest</div>
   <div>citest</div>
   <div>citest</div>
