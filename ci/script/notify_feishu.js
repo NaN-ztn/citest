@@ -5,7 +5,7 @@
  * 3. 云函数创建新版本并且切换100%流量
  */
 
-const repoInfo = require('./repo_info.cjs')
+const repoInfo = require('./repo_info.js')
 const request = require('request-promise')
 
 // 命令行的入参

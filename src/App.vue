@@ -11,7 +11,7 @@ import HelloWorld from './components/HelloWorld.vue'
   <div>citest</div>
   <div>citest</div>
   <div>citest</div>
-  <div>success</div>
+  <h1 style="color: green">success!!!</h1>
   <div>
     <a href="https://vitejs.dev" target="_blank">
       <img src="/vite.svg" class="logo" alt="Vite logo" />

@@ -2,12 +2,10 @@
   "name": "citest",
   "private": true,
   "version": "0.0.0",
-  "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "zip": "chmod +x ./ci/script/zip.sh && ./ci/script/zip.sh",
     "deploy": "chmod +x ./ci/script/deploy.sh && ./ci/script/deploy.sh"
   },
   "dependencies": {
