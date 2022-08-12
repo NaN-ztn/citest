@@ -8,6 +8,7 @@ import HelloWorld from './components/HelloWorld.vue'
   <div>
     testTitle citest
     <span style="color: blue">test</span>
+    <div style="color: red">citesttttttttt</div>
     <a href="https://vitejs.dev" target="_blank">
       <img src="/vite.svg" class="logo" alt="Vite logo" />
     </a>
