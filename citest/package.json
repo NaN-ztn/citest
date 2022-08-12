@@ -1,0 +1,19 @@
+{
+  "name": "citest",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "build-dev": "npm run dev & chmod +x ./deploy/deploy-dev.sh && ./deploy/deploy-dev.sh "
+  },
+  "dependencies": {
+    "vue": "^3.2.37"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^3.0.2",
+    "vite": "^3.0.6"
+  }
+}
