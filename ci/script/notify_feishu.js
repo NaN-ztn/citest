@@ -6,7 +6,7 @@
  */
 
 const repoInfo = require('./repo_info.js')
-const request = require('request-promise')
+const axios = require('axios')
 
 // 命令行的入参
 const [operator] = process.argv.slice(2)
@@ -72,11 +72,11 @@ async function feishuNotify() {
 
   // 飞书群通知
   promiseList.push(
-    request({
-      method: 'POST',
-      uri: 'https://open.feishu.cn/open-apis/bot/v2/hook/84f4d336-04c7-40ef-8f82-9d898e9e1b3c',
-      json: true,
-      body: {
+    axios({
+      method: 'post',
+      url: 'https://open.feishu.cn/open-apis/bot/v2/hook/84f4d336-04c7-40ef-8f82-9d898e9e1b3c',
+      responseType: 'json',
+      data: {
         msg_type: 'interactive',
         card: {
           config: { wide_screen_mode: true, enable_forward: true },
@@ -87,7 +87,7 @@ async function feishuNotify() {
             },
           ],
           header: {
-            title: { content: '上线通知', tag: 'plain_text' },
+            title: { content: 'web后台上线通知', tag: 'plain_text' },
           },
         },
       },

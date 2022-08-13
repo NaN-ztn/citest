@@ -6,16 +6,17 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "deploy": "chmod +x ./ci/script/deploy.sh && ./ci/script/deploy.sh"
+    "zipDist": "./ci/script/zipDist.sh"
   },
   "dependencies": {
+    "axios": "^0.27.2",
     "vue": "^3.2.37"
   },
   "devDependencies": {
+    "@vitejs/plugin-vue": "^3.0.2",
+    "node-ssh": "^13.0.0",
     "request": "^2.88.2",
     "request-promise": "^4.2.6",
-    "node-ssh": "^13.0.0",
-    "@vitejs/plugin-vue": "^3.0.2",
     "vite": "^3.0.6"
   }
 }

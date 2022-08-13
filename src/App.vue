@@ -5,14 +5,7 @@ import HelloWorld from './components/HelloWorld.vue'
 </script>
 
 <template>
-  <div style="color: blue">citest</div>
-  <div>citest</div>
-  <div>citest</div>
-  <div>citest</div>
-  <div>citest</div>
-  <div>citest</div>
-  <h1 style="color: green">success!!!</h1>
-  <h1 style="color: red">TODO:整理代码，转移到测试环境测试！！！elementplus 版本</h1>
+  <h1 style="color: green">citest</h1>
   <div>
     <a href="https://vitejs.dev" target="_blank">
       <img src="/vite.svg" class="logo" alt="Vite logo" />
