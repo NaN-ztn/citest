@@ -6,6 +6,10 @@ import HelloWorld from './components/HelloWorld.vue'
 
 <template>
   <h1 style="color: green">citest</h1>
+  <h1 style="color: green">citest</h1>
+  <h1 style="color: green">citest</h1>
+  <h1 style="color: red">citest</h1>
+  <h1 style="color: red">citest</h1>
   <h1 style="color: red">citest</h1>
   <div>
     <a href="https://vitejs.dev" target="_blank">
